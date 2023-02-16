@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
 @font-face {
   font-family: font;
   src: url(./assets/Giblant.otf);
@@ -59,4 +65,15 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.row {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 200px;
+  width: 150px;
 }
