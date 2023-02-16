@@ -30,3 +30,12 @@ button {
   height: 40px;
   color: aliceblue;
 }
+
+.storeBody {
+  background-color: #832d2d;
+  padding: 100px;
+}
+
+.product {
+  color: aliceblue;
+}
