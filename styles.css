@@ -65,9 +65,12 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 20px 0px;
 }
 
 .row {
+  background-color: black;
+  border-radius: 20px;
   height: 300px;
   display: flex;
   flex-direction: column;
