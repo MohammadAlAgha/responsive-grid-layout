@@ -7,8 +7,8 @@
 
 img {
   object-fit: contain;
-  height: 80%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
 }
 
 @font-face {
@@ -71,7 +71,7 @@ button {
 .row {
   background-color: black;
   border-radius: 20px;
-  height: 350px;
+
   display: flex;
   flex-direction: column;
   width: 200px;
@@ -83,4 +83,20 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.image > img {
+  object-fit: contain;
+  height: 80%;
+  width: 80%;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.info {
+  padding: 10px;
 }
