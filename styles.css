@@ -1,0 +1,32 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navBar {
+  height: 15vh;
+  background-color: rgb(14, 14, 14);
+  padding: 10px 30px;
+}
+
+.holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonBar {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button {
+  width: 70px;
+  background-color: #832d2d;
+  border-radius: 15px;
+  height: 40px;
+  color: aliceblue;
+}
