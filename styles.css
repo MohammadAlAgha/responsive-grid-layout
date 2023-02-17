@@ -66,6 +66,7 @@ button {
   flex-direction: row;
   justify-content: space-around;
   margin: 20px 0px;
+  flex-wrap: wrap;
 }
 
 .row {
