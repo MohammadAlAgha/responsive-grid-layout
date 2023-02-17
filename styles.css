@@ -103,6 +103,12 @@ button {
   margin: 5px;
 }
 
+button:hover {
+  background-color: aliceblue;
+  color: #832d2d;
+  transition: 0.7s;
+}
+
 .info {
   padding: 10px;
 }
