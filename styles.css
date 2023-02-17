@@ -28,7 +28,7 @@ img {
 }
 
 .buttonBar {
-  width: 40%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -72,7 +72,7 @@ button {
 .row {
   background-color: black;
   border-radius: 20px;
-
+  margin: 10px;
   display: flex;
   flex-direction: column;
   width: 200px;
@@ -100,4 +100,10 @@ button {
 
 .info {
   padding: 10px;
+}
+
+@media (max-width: 1100px) {
+  .buttonBar {
+    display: none;
+  }
 }
